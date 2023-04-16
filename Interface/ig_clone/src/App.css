@@ -1,0 +1,278 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+/*Signup page*/
+
+.signup{
+  border: 1px solid #7373734d;
+  width: 350px;
+  height: 585px;
+  margin: 12px 460px 350px;
+  text-align: center;
+}
+.signup img{
+  width: 250px;
+}
+.instapic{
+  margin: 15px 88px -30px 58px;  
+}
+.signup .signup-status{
+  width: 270px;
+  height: 43px;
+  color: #737373;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0 40px;
+  text-align: center;
+}
+#sign-with-facebook,
+#log-with-facebook{
+  background-color: #0095f6;
+  color: whitesmoke;
+  padding: 7px 55px;
+  width: 270px;
+  margin: 0 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.uil-facebook{
+  color: white;
+  background-color:  #0095f6;
+  font-size: 18px;
+
+}
+.signup p.or,.login p.or{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 18px;
+  color: #737373;
+}
+.signup p.or::before, 
+.signup p.or::after ,
+.login p.or::before , 
+.login p.or::after{
+  content: "";
+  display: inline-block;
+  width: 115px;
+  border-top: 1.5px solid #7373735e;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.input-wrapper {
+  position: relative;
+}
+
+input {
+  width: 252px;
+  height: 22px;
+  margin: 0px 0px 7px;
+  padding: 5px;
+  border: 1px solid #7373734d;
+  border-radius: 2px;
+}
+
+input:focus{
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #7373734d;
+}
+
+input::placeholder {
+  font-weight: 100;
+  font-size: 12.5px;
+  font-family: 'Roboto', sans-serif;
+  color: #626262;
+}
+.signup-descriptions{
+  width: 260px;
+  margin: -5px 40px 18px;
+  font-weight:300;
+  font-size: 12.1px;
+  color: #242424;
+}
+.signup-descriptions a{
+  text-decoration: none;
+  font-weight: 400;
+  color: #00376b;
+}
+#signup-button , .login #login{
+  background-color: #0094f6b4;
+  color: whitesmoke;
+  padding: 8px 55px;
+  width: 270px;
+  margin: 0 40px 38px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.have-an-account{
+  border: 1px solid #7373734d;
+  margin: 15px 0;
+  height: 25px;
+  padding: 20px;
+}
+.have-an-account a{
+  text-decoration: none;
+  color: #0095f6;
+}
+.button-references{
+  display: flex;
+  margin: 0 15px 65px;
+}
+.button-references #google-play{
+  width: 165px;
+  height: 60px;
+}
+.microsoft-button{
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  width: 125px;
+  height: 22px;
+  border-radius: 5px;
+  margin: 11px 0 ;
+ 
+}
+.microsoft-button h3{
+  font-size: 18px;
+  margin: -28px 0;
+}
+.microsoft-button p{
+  margin: -5px -10px 0 ;
+  font-size: 12px;
+  color: #b5b5b5f1;
+}
+.microsoft-button img{
+  width: 25px;
+  height:25px;
+  margin:-2px 5px 0 0px;
+}
+.footer ,.copyright{
+  margin:0 10px 0 -300px;
+  width: 100px;
+  display: flex;
+  white-space: nowrap;
+  gap: 20px;
+  font-size: 12px;
+  color: #626262db;  
+}
+.footer a{
+  text-decoration: none;
+  color: #626262db;
+}
+.footer a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.copyright{
+  margin: 1px 90px 100px;
+}
+
+
+/*Login*/
+.login{
+  display: flex;
+}
+#side-img{
+  margin: 45px 250px;
+  width: 440px;
+  height: 580px;
+}
+.login #login{
+  height: 32px;
+  margin: 10px -2px 20px;
+  background-color:#0095f6 ;
+  
+}
+.insta-pic{
+  width: 250px;
+  height: 100px;
+  margin: 25px 52px 20px;
+}
+
+.side-right{
+  margin: 45px -250px;
+  border: 1px solid #7373734d;
+  width: 350px;
+  height: 410px;
+  text-align: center;
+
+}
+.login-input{
+  margin: 0 42px ;
+}
+.login p.or{
+  margin: -5px 30px 20px;
+  
+}
+.login #log-with-facebook{
+  background-color: #FFF;
+  color: #385185;
+}
+.login .uil-facebook{
+  background-color: white;
+  color: #385185;
+}
+.forgot-password a{
+  text-decoration: none;
+  color: #00376b;
+  font-size: 12px;
+}
+.login .have-an-account{
+  font-size: 14px;
+  margin: 40px -1px 10px;
+  width: 311px;
+  height: 20px;
+}
+.span-elt{
+  font-weight: 600;
+}
+.login .footer-class{
+  margin:0 -200px ;
+}
+
+
+
+/* homepage */
+.homepage{
+  background-color: #000;
+}
+.black_ig{
+  margin: 10px -8px 15px;
+  width: 120px;
+}
+.sidebar{
+  height: 100vh;
+  margin: 0 1010px 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+  border-right: 1px solid #62626255;
+  background-attachment: fixed;
+}
+.field{
+  margin: -4px 12px 0 0 ;
+  width: 220px;
+}
+.field a {
+  text-decoration: none;
+  color:white;
+  margin: 10px 0;
+  display: flex;
+}
+.field img {
+  width: 27px;
+  height: 27px;
+  margin:0 15px 0 0 ;
+}
+.field p{
+  margin: 5px 0;
+}
