@@ -25,7 +25,7 @@ router.post('/createpost',Middleware,async(req,res)=>{
     }
 })
 
-router.get('/allpost',async(req,res)=>{
+router.get('/allpost',async(req,res)=>{ 
     try {
         const allposts = await Post.find().populate("postedBy","_id name")
         res.status(200).json(allposts)
@@ -44,6 +44,7 @@ router.get('/mypost',async(req,res)=>{
         res.status(404).json({error:"Can't find your posts"})
     }
 })
+
 
 
 module.exports = router
